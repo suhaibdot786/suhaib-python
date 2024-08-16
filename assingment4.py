@@ -1,11 +1,11 @@
-x =  'hello world '
+y =  'hello world '
 result = "" 
 
-for i in range(len(x)):
+for i in range(len(y)):
     if i % 2 == 0:
-        result  +=    x[i].upper()  # Uppercase characters at even indices
+        result  +=    y[i].upper()  # Uppercase characters at even indices
     else:
-        result  +=   x[i].lower()  # Lowercase characters at odd indices
+        result  +=   y[i].lower()  # Lowercase characters at odd indices
 
 print(result)
  
